@@ -1,5 +1,6 @@
 LOCAL_API_URL = "http://localhost:1234/v1/chat/completions"
-MODEL = "llama-3.2-1b-instruct";
+# MODEL = "llama-3.2-1b-instruct"
+MODEL = "granite-3.1-8b-instruct"
 # SYSTEM_PROMPT = ("You are a friendly and casual conversation partner helping the user improve their English. "
 #                  "Keep the conversation relaxed and enjoyable. "
 #                  "When the user writes, analyze their input for spelling and wording, "
