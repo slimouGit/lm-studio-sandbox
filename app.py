@@ -1,5 +1,8 @@
 import requests
 import json
+import sys
+
+sys.stdout.reconfigure(encoding='utf-8')
 
 from config import LOCAL_API_URL, MODEL
 
