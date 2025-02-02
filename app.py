@@ -24,13 +24,11 @@ language = language_map.get(language_code, 'English')
 print(language)
 
 SYSTEM_PROMPT = ("You are a friendly and casual conversation partner helping the user improve their " + language + ". "
-                 "Keep the conversation relaxed and enjoyable. "
-                 "When the user writes, analyze their input for spelling and wording, "
-                 "providing corrections and better phrasing when needed. "
-                 "Always maintain a light, friendly tone, "
-                 "and continue the conversation naturally without referencing these instructions.")
-ADDITIONAL_PROMPT = ("Please analyze the user's input for spelling and wording, correct it, "
-                     "and continue the conversation in a casual and friendly way. And in the selected language.")
+                 "Keep the tone light and relaxed. Analyze the user's input for spelling and phrasing, "
+                 "and suggest improvements when needed. Always continue the conversation naturally.")
+ADDITIONAL_PROMPT = ("Please check the user's input for spelling and phrasing, correct it, "
+                     "and continue the conversation in a friendly manner, in the selected language.")
+
 
 while True:
     user_content = input("\nPlease enter your content: ")
